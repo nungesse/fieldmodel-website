@@ -1,0 +1,19 @@
+@import url("https://fieldmodel-private-briefing-kofyrgjdz-field-model.vercel.app/styles.css");
+
+/* Git-backed explainer bridge: hero → concept → doctrine */
+.explainer{padding:92px 0;border-top:1px solid #16354499;border-bottom:1px solid #16354499;position:relative}
+.explainer:before{content:"";position:absolute;inset:10% 10% auto;height:48%;background:radial-gradient(circle at 50% 35%,rgba(54,215,242,.08),transparent 58%);pointer-events:none}
+.explainer-head{max-width:980px;position:relative;z-index:1}
+.explainer-head h2 span{color:#8fcfe0}
+.explainer-head>p:last-child{max-width:790px}
+.explainer-figure{position:relative;z-index:1;margin:0;border:1px solid #28536a;border-radius:16px;padding:10px;background:#020b12;box-shadow:0 28px 80px #0007;overflow:hidden}
+.explainer-figure img{display:block;width:100%;height:auto;border-radius:10px;background:#03101a}
+.explainer-figure figcaption{padding:10px 5px 2px;color:#7396aa;font-size:9px;line-height:1.5;letter-spacing:.03em}
+.explainer-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.explainer-grid article{border:1px solid #244758;border-radius:14px;padding:20px;background:linear-gradient(145deg,#081c29,#04131e);box-shadow:0 14px 38px #0003}
+.explainer-grid article:nth-child(1){border-top-color:#28cbe8}.explainer-grid article:nth-child(2){border-top-color:#ba6ef2}.explainer-grid article:nth-child(3){border-top-color:#ffc36d}
+.explainer-grid .tag{margin-bottom:10px}
+.explainer-grid h3{font-size:20px;margin:5px 0 10px}
+.explainer-grid p:not(.tag){font-size:12px;line-height:1.65;margin:0;color:#98afbf}
+@media(max-width:900px){.explainer-grid{grid-template-columns:1fr}.explainer-grid article{min-height:0}}
+@media(max-width:720px){.explainer{padding:64px 0}.explainer-figure{margin-left:-8px;margin-right:-8px;padding:5px;border-radius:11px}.explainer-figure figcaption{padding:8px 6px 3px}.explainer-head h2{font-size:clamp(32px,9vw,46px)}}
