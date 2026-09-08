@@ -1,3 +1,3 @@
-# FieldModel Website
+# FieldModel website
 
-Source of truth for the FieldModel public website deployed to Vercel.
+Production source for fieldmodel.ai. Deployed automatically from `main` by Vercel.
